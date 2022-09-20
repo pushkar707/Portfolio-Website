@@ -1,0 +1,100 @@
+module.exports = [
+    {
+        id: 1,
+        name: "Ecommerce Website",
+        description: "A very basic clone of amazon with cart fuctionality made with react,firebase",
+        url:"https://eshopbypushkar.netlify.app/",
+        category: "frontend"
+    },
+    {
+        id:2,
+        name: "Watch List",
+        description: "A basic website to maintain a watch list of your favorite movies and shows made with react",
+        url:"https://watch-list-by-pushkar.netlify.app/",
+        category:"frontend"
+    },
+    {
+        id:3,
+        name:"i-Dragon",
+        description: "A game made using html,css,js",
+        url:"https://i-dragon.netlify.app/",
+        category:"frontend"
+    },
+    {
+        id:4,
+        name:"Gym Webiste",
+        description:"A static single page website for a gym",
+        url:"https://gym-website-pushkar.netlify.app/",
+        category:"frontend"
+    },
+    {
+        id:5,
+        name:"Animated Moving Car",
+        description:"A simple website that uses css transitions and animations to display moving car",
+        url:"https://animated-moving-car.netlify.app/",
+        category:"frontend"
+    },
+    {
+        id:6,
+        name:"Food Site",
+        description:"A static single page website that for a restaurant",
+        url:"https://food-delivery-app-pushkar.netlify.app/",
+        category:"frontend"
+    },
+    {
+        id:7,
+        name:"Yelpcamp",
+        description:"A clone of yelp.com made using express, mongoDb and many more. MY BEST WORK IN WEB DEV",
+        url:"https://yelpcamp-project-by-pushkar.up.railway.app/",
+        category:"full-stack"
+    },
+    {
+        id:8,
+        name:"Blog Website",
+        description:"A blog website made for multiple users using flask and many more",
+        url:"https://flask-blog-by-pushkar.herokuapp.com/",
+        category:'full-stack'
+    },
+    {
+        id:9,
+        name:"Billing App",
+        description:"A billing app for single user made with express, mongodb and more.",
+        url:"https://billing-app-pushkar.up.railway.app/",
+        category:'full-stack'
+    },
+    {
+        id:10,
+        name:"Blog Website",
+        description:"A blog website made for multiple users using flask and many more",
+        url:"https://flask-blog-by-pushkar.herokuapp.com/",
+        category:'python'
+    },
+    {
+        id:11,
+        name:"Decision Review System",
+        description:"A app that replicated functionality of DRS system of cricket, made with tkinter",
+        url:"",
+        category:"python"
+    },
+    {
+        id:12,
+        name:"BlackJack",
+        description:"A program to replicate blackJack game",
+        url:"https://github.com/pushkar707/Leetcode-Python/blob/master/blackJack.py",
+        category:"python"
+    },
+    {
+        id:13,
+        name:"TicTacToe",
+        description:"A program to replicate tictactoe game",
+        url:"https://github.com/pushkar707/Leetcode-Python/blob/master/ticTacToe.py",
+        category:"python"
+    },
+    {
+        id:14,
+        name:"Problem Solving",
+        description:"Some leetcode problems that I solved using python",
+        url:"https://github.com/pushkar707/Leetcode-Python",
+        category:"Python"
+    }
+]

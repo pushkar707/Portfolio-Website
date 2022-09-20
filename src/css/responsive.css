@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+  section {
+    padding: 3rem 7rem 3rem 3rem;
+  }
+  .header-content .right-header {
+    padding-right: 8rem;
+  }
+  .header-content .left-header .image {
+    width: 80%;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 1000px) {
+  .projects-grp {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-content-con {
+    flex-direction: column;
+  }
+  .contact-content-con .left-contact {
+    width: 90%;
+    margin: auto;
+  }
+  .contact-content-con .right-contact {
+    width: 90%;
+    margin: auto;
+  }
+  .header-content .left-header .image {
+    height: 70vh;
+  }
+  .header-content .right-header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .header-content .right-header .name {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 860px) {
+  .header-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-content .left-header .h-shape {
+    display: none;
+  }
+  .header-content .left-header .image {
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .header-content .right-header {
+    padding: 3rem;
+    padding-right: 5rem;
+  }
+  .main-title h2 {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 700px) {
+  .about-stats .progress-bars {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact-content-con .left-contact h4 {
+    font-size: 1.8rem;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem auto;
+  }
+  .contact-content-con .right-contact .input-control-2 {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact .input-control-2 :last-child {
+    margin-top: 1.2rem;
+    margin-left: auto;
+  }
+  .project-nav {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .projects-grp {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .projects-grp .project {
+    height: 250px;
+  }
+  .abt-btns {
+    flex-direction: column;
+  }
+  .abt-btns .btn-con {
+    margin: 1rem auto;
+  }
+  .main-title h2 {
+    font-size: 2rem;
+  }
+  .main-title h2 .bg-text {
+    display: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */

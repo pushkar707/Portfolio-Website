@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from "react";
+import './css/app.css'
+import './css/responsive.css'
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
+import Controls from "./components/Controls";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [activeSec, setactiveSec] = useState('home')
+  const [lightMode, setlightMode] = useState(false)
+  return(
+    <div className={lightMode?'light-mode':""}>
+      {activeSec === 'home' && <Home/>}
+      {activeSec === 'about' && <About/>}
+      {activeSec === 'projects' && <Projects/>}
+      {activeSec === 'contact' && <Contact/>}
+      <Controls setactiveSec={setactiveSec} activeSec={activeSec} setlightMode={setlightMode} lightMode={lightMode}/>
     </div>
-  );
+  )
 }
 
 export default App;

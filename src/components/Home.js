@@ -22,7 +22,7 @@ const Home = () => {
                 I started programming during lockdown, started web developement, python and then I went more and more into it, learned many frameworks, libraries, technologies and created a lot of projects
                 </p>
                 <div className="btn-con">
-                    <a href="" className="main-btn">
+                    <a href="https://drive.google.com/file/d/11dhNc4bKf7boKuWwAZaT7e6WfROFLRcD/view?usp=sharing" target="_blank" className="main-btn">
                         <span className="btn-text">Download Resume</span>
                         <span className="btn-icon"><FontAwesomeIcon icon={faDownload}/></span>
                     </a>

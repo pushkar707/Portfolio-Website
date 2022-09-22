@@ -13,7 +13,7 @@ function App() {
   return(
     <div className={lightMode?'light-mode':""}>
       {activeSec === 'home' && <Home/>}
-      {activeSec === 'about' && <About/>}
+      {activeSec === 'about' && <About setactiveSec={setactiveSec}/>}
       {activeSec === 'projects' && <Projects/>}
       {activeSec === 'contact' && <Contact/>}
       <Controls setactiveSec={setactiveSec} activeSec={activeSec} setlightMode={setlightMode} lightMode={lightMode}/>

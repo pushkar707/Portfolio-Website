@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload,faListCheck } from '@fortawesome/free-solid-svg-icons'
 
-const About = () => {
+const About = ({setactiveSec}) => {
   return (
     <section className="section sec2 about" id="about">
         <div className="main-title">
@@ -86,16 +86,16 @@ const About = () => {
         </div>
         <div className="abt-btns">
             <div className="btn-con">
-                <a href="" className="main-btn">
+                <a href="https://drive.google.com/file/d/11dhNc4bKf7boKuWwAZaT7e6WfROFLRcD/view?usp=sharing" target="_blank" className="main-btn">
                     <span className="btn-text">Download Resume</span>
                     <span className="btn-icon"><FontAwesomeIcon icon={faDownload}/></span>
                 </a>
             </div>
             <div className="btn-con">
-                <a href="" className="main-btn">
+                <span className="main-btn" onClick={()=>{setactiveSec('projects')}}>
                     <span className="btn-text">View Projects</span>
                     <span className="btn-icon"><FontAwesomeIcon icon={faListCheck}/></span>
-                </a>
+                </span>
             </div>
         </div>
     </section>

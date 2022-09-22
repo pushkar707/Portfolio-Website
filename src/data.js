@@ -44,7 +44,7 @@ module.exports = [
     {
         id:7,
         name:"Yelpcamp",
-        description:"A clone of yelp.com made using express, mongoDb and many more. MY BEST WORK IN WEB DEV",
+        description:"A website to expore camping grounds made using express, mongoDb and many more. MY BEST WORK IN WEB DEV",
         url:"https://yelpcamp-project-by-pushkar.up.railway.app/",
         category:"full-stack"
     },

@@ -520,7 +520,9 @@ section{
     display: flex;
     align-self: flex-start;
 }
+
 .main-btn{
+    cursor: pointer;
     border-radius: 30px;
     color: inherit;
     font-weight: 600;

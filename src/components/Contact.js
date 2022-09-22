@@ -56,7 +56,7 @@ const Contact = () => {
                             </a>
                         </div>
                         <div className="contact-icon">
-                            <a href="www.github.com/pushkar707" target="_blank">
+                            <a href="https://www.linkedin.com/in/pushkar-bansal-3ab161200/" target="_blank">
                                 <FontAwesomeIcon icon={faLinkedin}/>
                             </a>
                         </div>

@@ -516,6 +516,7 @@ section {
 }
 
 .main-btn {
+  cursor: pointer;
   border-radius: 30px;
   color: inherit;
   font-weight: 600;

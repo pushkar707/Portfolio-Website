@@ -1,50 +1,50 @@
 module.exports = [
     {
-        id: 1,
-        name: "Ecommerce Website",
-        description: "A very basic clone of amazon with cart fuctionality made with react,firebase",
-        url:"https://eshopbypushkar.netlify.app/",
-        category: "frontend"
-    },
-    {
-        id:2,
+        id:1,
         name: "Watch List",
         description: "A basic website to maintain a watch list of your favorite movies and shows made with react",
         url:"https://watch-list-by-pushkar.netlify.app/",
         category:"frontend"
     },
     {
+        id:2,
+        name:"Yelpcamp",
+        description:"A responsive website to explore camping grounds",
+        url:"https://yelpcamp-project-by-pushkar.up.railway.app/",
+        category:"frontend"
+    },
+    {
         id:3,
+        name:"Blog Website",
+        description:"A responsive blog website made for multiple users using flask and many more",
+        url:"https://flask-blog-by-pushkar.herokuapp.com/",
+        category:'frontend'
+    },
+    {
+        id:4,
         name:"i-Dragon",
         description: "A game made using html,css,js",
         url:"https://i-dragon.netlify.app/",
         category:"frontend"
     },
     {
-        id:4,
+        id:5,
         name:"Gym Webiste",
         description:"A static single page website for a gym",
         url:"https://gym-website-pushkar.netlify.app/",
         category:"frontend"
     },
     {
-        id:5,
+        id:6,
         name:"Animated Moving Car",
         description:"A simple website that uses css transitions and animations to display moving car",
         url:"https://animated-moving-car.netlify.app/",
         category:"frontend"
     },
     {
-        id:6,
-        name:"Food Site",
-        description:"A static single page website that for a restaurant",
-        url:"https://food-delivery-app-pushkar.netlify.app/",
-        category:"frontend"
-    },
-    {
         id:7,
         name:"Yelpcamp",
-        description:"A website to expore camping grounds made using express, mongoDb and many more. MY BEST WORK IN WEB DEV",
+        description:"A website to explore camping grounds made using express, mongoDb and many more. MY BEST WORK IN WEB DEV",
         url:"https://yelpcamp-project-by-pushkar.up.railway.app/",
         category:"full-stack"
     },

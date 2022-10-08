@@ -20,7 +20,13 @@
     border-radius: 20px;
 }
 
-@media (max-width:500px) {
+@media (max-width:1500px) {
+    .chartCard{
+        padding:unset;
+    }
+}
+
+@media (max-width:600px) {
     .chartBox{
         transform: rotate(90deg);
         width: unset;

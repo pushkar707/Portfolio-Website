@@ -20,6 +20,10 @@
     border-radius: 20px;
 }
 
+.about-stats{
+    display: none;
+}
+
 @media (max-width:1500px) {
     .chartCard{
         padding:unset;
@@ -31,5 +35,11 @@
         transform: rotate(90deg);
         width: unset;
         max-width: unset;
+    }
+    .chartCard{
+        display: none;
+    }
+    .about-stats{
+        display: unset;
     }
 }

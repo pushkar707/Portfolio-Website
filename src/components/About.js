@@ -9,7 +9,7 @@ const About = ({setactiveSec}) => {
         <div className="main-title">
             <h2>My <span>Skills</span><span className="bg-text">about me</span></h2>
         </div>
-        {/* <div className="about-stats">
+        <div className="about-stats">
             <div className="progress-bars">
                 <div className="progress-bar">
                     <p className="prog-title">html5</p>
@@ -84,7 +84,7 @@ const About = ({setactiveSec}) => {
                     </div>
                 </div>          
             </div>
-        </div> */}
+        </div>
         <AboutChart/>
         <div className="abt-btns">
             <div className="btn-con">

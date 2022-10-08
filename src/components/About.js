@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload,faListCheck } from '@fortawesome/free-solid-svg-icons'
+import AboutChart from './AboutChart'
 
 const About = ({setactiveSec}) => {
   return (
@@ -8,7 +9,7 @@ const About = ({setactiveSec}) => {
         <div className="main-title">
             <h2>My <span>Skills</span><span className="bg-text">about me</span></h2>
         </div>
-        <div className="about-stats">
+        {/* <div className="about-stats">
             <div className="progress-bars">
                 <div className="progress-bar">
                     <p className="prog-title">html5</p>
@@ -83,7 +84,8 @@ const About = ({setactiveSec}) => {
                     </div>
                 </div>          
             </div>
-        </div>
+        </div> */}
+        <AboutChart/>
         <div className="abt-btns">
             <div className="btn-con">
                 <a href="https://drive.google.com/file/d/11dhNc4bKf7boKuWwAZaT7e6WfROFLRcD/view?usp=sharing" target="_blank" className="main-btn">

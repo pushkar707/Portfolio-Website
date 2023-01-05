@@ -10,14 +10,14 @@ module.exports = [
         id:2,
         name:"Yelpcamp",
         description:"A responsive website to explore camping grounds",
-        url:"https://yelpcamp-project-by-pushkar.up.railway.app/",
+        url:"https://yelpcamp-pushkar.cyclic.app",
         category:"frontend"
     },
     {
         id:3,
         name:"Blog Website",
         description:"A responsive blog website made for multiple users using flask and many more",
-        url:"https://flask-blog-by-pushkar.herokuapp.com/",
+        url:"https://multi-user-flask-blog-pushkar.onrender.com/",
         category:'frontend'
     },
     {
@@ -45,28 +45,28 @@ module.exports = [
         id:7,
         name:"Yelpcamp",
         description:"A website to explore camping grounds made using express, mongoDb and many more. MY BEST WORK IN WEB DEV",
-        url:"https://yelpcamp-project-by-pushkar.up.railway.app/",
+        url:"https://yelpcamp-pushkar.cyclic.app",
         category:"full-stack"
     },
     {
         id:8,
         name:"Blog Website",
         description:"A blog website made for multiple users using flask and many more",
-        url:"https://flask-blog-by-pushkar.herokuapp.com/",
+        url:"https://multi-user-flask-blog-pushkar.onrender.com/",
         category:'full-stack'
     },
     {
         id:9,
         name:"Billing App",
         description:"A billing app for single user made with express, mongodb and more.",
-        url:"https://billing-app-pushkar.up.railway.app/",
+        url:"https://billing-app-pushkar.cyclic.app/",
         category:'full-stack'
     },
     {
         id:10,
         name:"Blog Website",
         description:"A blog website made for multiple users using flask and many more",
-        url:"https://flask-blog-by-pushkar.herokuapp.com/",
+        url:"https://multi-user-flask-blog-pushkar.onrender.com/",
         category:'python'
     },
     {

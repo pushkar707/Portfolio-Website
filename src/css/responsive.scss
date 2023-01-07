@@ -47,10 +47,12 @@
 }
 
 @media (max-width:860px) {
+    header{
+        height: unset;
+    }
     .header-content{
         display: flex;
         flex-direction: column;
-        height: fit-content;
         .left-header{
             .h-shape{
                 display: none;

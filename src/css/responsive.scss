@@ -50,6 +50,7 @@
     .header-content{
         display: flex;
         flex-direction: column;
+        height: unset;
         .left-header{
             .h-shape{
                 display: none;

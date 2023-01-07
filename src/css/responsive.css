@@ -40,6 +40,9 @@
   .header-content {
     display: flex;
     flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .header-content .left-header .h-shape {
     display: none;

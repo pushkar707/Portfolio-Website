@@ -1,5 +1,19 @@
 module.exports = [
     {
+        id:4,
+        name:"i-Dragon",
+        description: "A game made using html,css,js",
+        url:"https://i-dragon.netlify.app/",
+        category:"frontend"
+    },
+    {
+        id:15,
+        name:"vCard",
+        description:"webpage builder for businesses created using Django",
+        url:"http://vcard-env-last.eba-pbkqwgqd.ap-south-1.elasticbeanstalk.com/",
+        category:"frontend"
+    },
+    {
         id:1,
         name: "Watch List",
         description: "A basic website to maintain a watch list of your favorite movies and shows made with react",
@@ -11,20 +25,6 @@ module.exports = [
         name:"Yelpcamp",
         description:"A responsive website to explore camping grounds",
         url:"https://yelpcamp-pushkar.cyclic.app",
-        category:"frontend"
-    },
-    {
-        id:3,
-        name:"Blog Website",
-        description:"A responsive blog website made for multiple users using flask and many more",
-        url:"https://multi-user-flask-blog-pushkar.onrender.com/",
-        category:'frontend'
-    },
-    {
-        id:4,
-        name:"i-Dragon",
-        description: "A game made using html,css,js",
-        url:"https://i-dragon.netlify.app/",
         category:"frontend"
     },
     {
@@ -42,9 +42,16 @@ module.exports = [
         category:"frontend"
     },
     {
+        id:16,
+        name:"vCard",
+        description:"Webpage builder for businesses created using Django",
+        url:"http://vcard-env-last.eba-pbkqwgqd.ap-south-1.elasticbeanstalk.com/",
+        category:"full-stack"
+    },
+    {
         id:7,
         name:"Yelpcamp",
-        description:"A website to explore camping grounds made using express, mongoDb and many more. MY BEST WORK IN WEB DEV",
+        description:"A website to explore camping grounds made using express, mongoDb and many more.",
         url:"https://yelpcamp-pushkar.cyclic.app",
         category:"full-stack"
     },

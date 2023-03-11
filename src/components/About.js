@@ -32,18 +32,18 @@ const About = ({setactiveSec}) => {
                 <div className="progress-bar">
                     <p className="prog-title">CSS</p>
                     <div className="progress-con">
-                        <p className="prog-text">75%</p>
+                        <p className="prog-text">85%</p>
                         <div className="progress">
                             <span className="css"></span>
                         </div>
                     </div>
                 </div>
                 <div className="progress-bar">
-                    <p className="prog-title">MongoDB</p>
+                    <p className="prog-title">Django</p>
                     <div className="progress-con">
-                        <p className="prog-text">65%</p>
+                        <p className="prog-text">80%</p>
                         <div className="progress">
-                            <span className="mongo"></span>
+                            <span className="django"></span>
                         </div>
                     </div>
                 </div> 
@@ -77,7 +77,7 @@ const About = ({setactiveSec}) => {
                 <div className="progress-bar">
                     <p className="prog-title">Flask</p>
                     <div className="progress-con">
-                        <p className="prog-text">60%</p>
+                        <p className="prog-text">87%</p>
                         <div className="progress">
                             <span className="flask"></span>
                         </div>

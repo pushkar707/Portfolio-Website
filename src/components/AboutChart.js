@@ -10,9 +10,9 @@ function AboutChart() {
   const myChart = new Chart(chart, {
     type: 'bar',
     data: {
-        labels: ['HTML5', 'CSS', 'Javascript', 'ReactJs', 'ExpressJs', 'MongoDb','Python',"Flask"],
+        labels: ['HTML5', 'CSS', 'Javascript', 'ReactJs', 'ExpressJs', 'Django','Python',"Flask"],
         datasets: [{
-            data: [81,78,76,58,70,53,70,52],
+            data: [91,84,86,73,79,77,80,75],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',

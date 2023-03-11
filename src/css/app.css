@@ -70,8 +70,7 @@ section {
   transform: translateY(-100%) scale(0);
   transition: var(--primary-transition);
   background-color: var(--color-primary);
-  -webkit-animation: scaleAnim 0.8s ease-in-out;
-          animation: scaleAnim 0.8s ease-in-out;
+  animation: scaleAnim 0.8s ease-in-out;
 }
 
 .sec1 {
@@ -145,8 +144,7 @@ section {
   background-color: var(--color-secondary) !important;
   color: var(--color-secondary);
   transition: var(--primary-transition);
-  -webkit-animation: scaleAnim 0.5s ease-in-out;
-          animation: scaleAnim 0.5s ease-in-out;
+  animation: scaleAnim 0.5s ease-in-out;
 }
 .controls .active-btn span {
   color: var(--color-white) !important;
@@ -155,15 +153,6 @@ section {
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
-}
-
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
 }
 
 @keyframes scaleAnim {
@@ -286,20 +275,19 @@ section {
   left: 0;
   height: 100%;
   background-color: var(--color-secondary);
-  -webkit-animation: stats-start 1.5s;
-          animation: stats-start 1.5s;
+  animation: stats-start 1.5s;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
   width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 75%;
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 85%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .mongo {
-  width: 65%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .django {
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .express {
   width: 80%;
@@ -311,13 +299,7 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .flask {
-  width: 60%;
-}
-
-@-webkit-keyframes stats-start {
-  0% {
-    width: 0;
-  }
+  width: 87%;
 }
 
 @keyframes stats-start {
@@ -403,15 +385,6 @@ section {
 
 .d-none {
   display: none;
-}
-
-@-webkit-keyframes display-time {
-  0% {
-    display: none;
-  }
-  100% {
-    display: block;
-  }
 }
 
 @keyframes display-time {
@@ -574,7 +547,6 @@ section {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: var(--color-grey-5);

@@ -9,11 +9,11 @@ import Controls from "./components/Controls";
 
 function App() {
   const [activeSec, setactiveSec] = useState('home')
-  const [lightMode, setlightMode] = useState(false)
+  const [lightMode, setlightMode] = useState(true)
   return(
     <div className={lightMode?'light-mode':""}>
       {activeSec === 'home' && <Home/>}
-      {activeSec === 'about' && <About setactiveSec={setactiveSec}/>}
+      {activeSec === 'about' && <About setactiveSec={setactiveSec} lightMode={lightMode}/>}
       {activeSec === 'projects' && <Projects/>}
       {activeSec === 'contact' && <Contact/>}
       <Controls setactiveSec={setactiveSec} activeSec={activeSec} setlightMode={setlightMode} lightMode={lightMode}/>

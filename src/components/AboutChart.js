@@ -4,9 +4,9 @@ import '../css/chart.css'
 
 const levels = ["Just Started Out","Did some stuff with it","Doing from quite some time","Pretty Confident","Will do anything you ask","Master"]
 
-function AboutChart() {
+function AboutChart({lightMode}) {
   useEffect(()=>{
-  const chart = document.getElementById('chart').getContext('2d')
+  const chart = document.getElementById(lightMode?'chart-light':'chart-dark').getContext('2d')
   const myChart = new Chart(chart, {
     type: 'bar',
     data: {
@@ -46,13 +46,15 @@ function AboutChart() {
       scales: {
           x:{
             ticks:{
+              color: lightMode ? "black" : 'white', 
               font:{
-                size:16
+                size:16,
               }
             }
           }
           ,y: {
               ticks: {
+                  color: lightMode ? "black" : 'white', 
                   font:{
                     size:16
                   },
@@ -66,11 +68,12 @@ function AboutChart() {
       }
   }
     });
-  },[])
+  },[lightMode])
   return (
     <div className="chartCard">
       <div className="chartBox">
-        <canvas id="chart"></canvas>
+        {lightMode && <canvas id="chart-light"></canvas>}
+        {!lightMode && <canvas id="chart-dark"></canvas>}
       </div>
     </div>
   )

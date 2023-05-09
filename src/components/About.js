@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload,faListCheck } from '@fortawesome/free-solid-svg-icons'
 import AboutChart from './AboutChart'
 
-const About = ({setactiveSec}) => {
+const About = ({setactiveSec,lightMode}) => {
   return (
     <section className="section sec2 about" id="about">
         <div className="main-title">
@@ -85,7 +85,7 @@ const About = ({setactiveSec}) => {
                 </div>          
             </div>
         </div>
-        <AboutChart/>
+        <AboutChart lightMode={lightMode}/>
         <div className="abt-btns">
             <div className="btn-con">
                 <a href="https://drive.google.com/file/d/11dhNc4bKf7boKuWwAZaT7e6WfROFLRcD/view?usp=sharing" target="_blank" className="main-btn">

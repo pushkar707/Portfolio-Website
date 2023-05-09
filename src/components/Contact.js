@@ -1,9 +1,22 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot,faEnvelope,faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import emailjs from '@emailjs/browser';
+import env from "react-dotenv";
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = async (e) => {
+        e.preventDefault();
+        emailjs.sendForm(env.EMAILJS_SERVICE_ID, env.EMAILJS_TEMPLATE_ID , form.current, env.EMAILJS_PUBLIC_KEY)
+        .then((result) => {
+            window.location = "/"
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
   return (
     <section className="section sec4 contact" id="contact">
         <div className="contact-container">
@@ -63,21 +76,21 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="right-contact">
-                    <form action="mailto:bansalpushkar100@gmail.com" className="contact-form">
+                    <form ref={form} className="contact-form" onSubmit={sendEmail}>
                         <div className="input-control input-control-2">
-                            <input type="text" required placeholder="YOUR NAME"/>
-                            <input type="email" required placeholder="YOUR EMAIL"/>
+                            <input type="text" name='name' required placeholder="YOUR NAME"/>
+                            <input type="email" name='email' required placeholder="YOUR EMAIL"/>
                         </div>
                         <div className="input-control">
-                            <input type="text" required placeholder="Enter Subject"/>
+                            <input type="text" name='subject' required placeholder="Enter Subject"/>
                         </div>
                         <div className="input-control">
-                            <textarea rows="6" required placeholder="Message Here"></textarea>
+                            <textarea rows="6" name='body' required placeholder="Message Here"></textarea>
                         </div>
                         <div className="submit-btn btn-con">
-                            <a href="" className="main-btn">
+                            <button type='submit' className="main-btn btn-text">
                                 <span className="btn-text">Submit</span>
-                            </a>
+                            </button>
                         </div>
                     </form>
                 </div>

@@ -1,23 +1,34 @@
-import React from 'react'
-import Proof from './Proof
+import React,{useState,useRef} from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faSuitcase,faLessThan } from '@fortawesome/free-solid-svg-icons'
+import Proof from './Proof'
 
-const Timeline = () => {
+const Timeline = ({time,heading,description,proofs,setfullScreen}) => {
+    const [scrolly, setscrolly] = useState(0)
+    const proofsRef = useRef()
+
+    let count = 0;
+
+    const shiftRight = () => {
+        if(count<proofs.length){
+            proofsRef.current.style.transform += 'translateX(-155px)'
+            count++
+        }
+    }
+
+    const shiftLeft = () => {
+        if(count>0){
+            proofsRef.current.style.transform += 'translateX(155px)'
+            count--
+        }
+    }
   return (
     <div className="timeline">
         <div className="icon"><FontAwesomeIcon icon={faSuitcase} /></div>
         <div>
-            <p className="timeline-timing">January 2022 - July 2022</p>
-            <p className="timeline-heading"><span className='position'>Full Stack web developer</span> - Stickman Technologies</p>
-            <p className="timeline-description">
-                <ul>
-                    <li>Worked on existing websites, and created websites and web solution from complete scratch for various brands and companies.</li>
-                    <li>Created <span className='fw-bold'>admin dashboard</span> for a testing products for <a href="https://geogroup.in/">geogroup</a></li>
-                    <li>Made full stack changes to <span className="fw-bold">ecommerce</span> website  - <a href="https://online.marvansmobile.com/">Marvans Mobile</a></li>
-                    <li>Wrote backend for <span className="fw-bold">inventory management</span> for marvans stock</li>
-                    <li>Worked on ecommerce and admin dashboard for <a href="https://store.usarocks.biz/">USA Rocks</a></li>
-                    <li>Any many more small projects.</li>
-                </ul>
-            </p>
+            <p className="timeline-timing">{time}</p>
+            <p className="timeline-heading" dangerouslySetInnerHTML={{__html:heading}}></p>
+            <p className="timeline-description" dangerouslySetInnerHTML={{__html:description}}></p>
             <p className='proof-heading'>Proof of work</p>
             <div className="proof-container">
                 <div className="previous" onClick={shiftLeft}><FontAwesomeIcon icon={faLessThan} /></div>

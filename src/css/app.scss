@@ -385,6 +385,7 @@ section{
             .proof-heading{
                 text-transform: uppercase;
                 margin: 1.5rem auto;
+                color: var(--color-white);
             }
             .proof-container{
                 display: flex;
@@ -392,6 +393,7 @@ section{
                 .previous,.next{
                     cursor: pointer;
                     transition: var(--primary-transition);
+                    color: var(--color-white);
                     &:hover{
                         background-color: var(--color-secondary);
                         padding: .6rem;

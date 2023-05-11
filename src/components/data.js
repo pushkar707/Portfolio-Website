@@ -1,6 +1,10 @@
 import proofImg from '../img/proof-1.jpg'
 
-module.exports.timeline = [
+const makeRepeated = (arr, repeats) => {
+    return [].concat.apply([], Array(repeats).fill(arr));
+}
+
+export default [
     {
         time:"January 2022 - July 2022",
         heading:"<span className='position'>Full Stack web developer</span> - Stickman Technologies",
@@ -14,7 +18,22 @@ module.exports.timeline = [
             <li>Any many more small projects.</li>
         </ul>
         `,
-        sample_proof:[{proofImg,id:1},{proofImg,id:2},{proofImg,id:3},{proofImg,id:4}],
-        proofs: [...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof]
-    }
+        proofs:makeRepeated([{proofImg,id:1},{proofImg,id:2},{proofImg,id:3},{proofImg,id:4},{proofImg,id:5}],6),
+        // proofs: [...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof]
+    },
+    {
+        time:"July 2022 - FEB 2023",
+        heading:"<span className='position'>Freelancer</span> - Upwork, linkedin",
+        description:`
+        <ul>
+            <li>Created a mini <span className="fw-bold">web-page builder</span>(django) - <a href="http://vcard-env-last.eba-pbkqwgqd.ap-south-1.elasticbeanstalk.com/">vCard</a></li>
+            <li>Created a website for people to get their texts translated by professionals - SPA through backend (flask), no JS because used in TOR browser <a href="http://pushkar707.pythonanywhere.com/">View (not completed)</a></li>
+            <li>A python compiler project in django - <a href="#">View</a></li>
+            <li>Electronics Site for <a href="https://newaggarwalelectricals.netlify.app/">New Aggarwal Electricals</a></li>
+            <li>Pizza page for - <a href="https://toppers-pizza.netlify.app/">Toppers pizza</a></li>
+        </ul>
+        `,
+        proofs:makeRepeated([{proofImg,id:1},{proofImg,id:2},{proofImg,id:3},{proofImg,id:4},{proofImg,id:5}],6),
+        // proofs: [...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof]
+    },
 ]

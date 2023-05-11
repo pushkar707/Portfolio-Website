@@ -9,7 +9,7 @@ import Controls from "./components/Controls";
 
 function App() {
   const [activeSec, setactiveSec] = useState('home')
-  const [lightMode, setlightMode] = useState(true)
+  const [lightMode, setlightMode] = useState(false)
   return(
     <div className={lightMode?'light-mode':""}>
       {activeSec === 'home' && <Home/>}

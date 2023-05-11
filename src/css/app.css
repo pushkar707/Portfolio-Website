@@ -375,6 +375,7 @@ section {
 .timeline-section .timelines .timeline .proof-heading {
   text-transform: uppercase;
   margin: 1.5rem auto;
+  color: var(--color-white);
 }
 .timeline-section .timelines .timeline .proof-container {
   display: flex;
@@ -383,6 +384,7 @@ section {
 .timeline-section .timelines .timeline .proof-container .previous, .timeline-section .timelines .timeline .proof-container .next {
   cursor: pointer;
   transition: var(--primary-transition);
+  color: var(--color-white);
 }
 .timeline-section .timelines .timeline .proof-container .previous:hover, .timeline-section .timelines .timeline .proof-container .next:hover {
   background-color: var(--color-secondary);

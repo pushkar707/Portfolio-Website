@@ -79,6 +79,7 @@ section {
 
 .sec2 {
   transform: translateY(0) scale(1);
+  padding: 3vh 12vw 3vh 9vw;
 }
 
 .sec3 {
@@ -308,13 +309,16 @@ section {
   }
 }
 .timeline-section {
-  margin: 5rem auto;
+  margin: 4rem auto;
 }
 .timeline-section .timeline-section-heading {
   text-transform: uppercase;
   text-align: center;
   color: var(--color-white);
   font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
 }
 .timeline-section .timelines {
   margin-top: 3rem;
@@ -342,6 +346,7 @@ section {
 .timeline-section .timelines .timeline .timeline-timing {
   width: -moz-fit-content;
   width: fit-content;
+  color: var(--color-white);
   background-color: var(--color-grey-5);
   padding: 0.3rem 0.6rem;
   text-transform: uppercase;
@@ -380,15 +385,18 @@ section {
 .timeline-section .timelines .timeline .proof-container {
   display: flex;
   align-items: center;
+  padding: 1rem 0.6rem;
+  background-color: var(--color-grey-5);
 }
 .timeline-section .timelines .timeline .proof-container .previous, .timeline-section .timelines .timeline .proof-container .next {
   cursor: pointer;
   transition: var(--primary-transition);
   color: var(--color-white);
+  padding: 0.6rem;
 }
 .timeline-section .timelines .timeline .proof-container .previous:hover, .timeline-section .timelines .timeline .proof-container .next:hover {
+  color: var(--color-grey-1);
   background-color: var(--color-secondary);
-  padding: 0.6rem;
   border-radius: 100%;
 }
 .timeline-section .timelines .timeline .proof-container .next {
@@ -400,17 +408,17 @@ section {
 }
 .timeline-section .timelines .timeline .proofs {
   display: flex;
-  max-width: 26vw;
+  max-width: 25vw;
   position: unset;
   transition: var(--primary-transition);
 }
 .timeline-section .timelines .timeline .proofs .proof {
+  display: inline;
   margin-right: 1rem;
   position: relative;
   width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
-  display: block;
   transition: var(--primary-transition);
 }
 .timeline-section .timelines .timeline .proofs .proof:hover {
@@ -419,10 +427,12 @@ section {
 }
 .timeline-section .timelines .timeline .proofs .proof img {
   width: 150px;
+  height: 100px;
 }
 .timeline-section .timelines .timeline .proofs .proof .proof-title {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
   padding: 15px;
   bottom: 4px;
   width: 100%;
@@ -444,8 +454,8 @@ section {
   transition: var(--primary-transition);
 }
 .timeline-section .timelines .timeline .proofs .proof-full img {
-  width: 90%;
-  height: 90%;
+  max-width: 90vw;
+  height: 100%;
 }
 
 .abt-btns {

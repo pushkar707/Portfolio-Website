@@ -1,5 +1,27 @@
 import proofImg from '../img/proof-1.jpg'
 
+const internshipImages = [
+    {img:require('../img/internship/intern certificate.png'),title:"Internship Cert."},
+    {img:require('../img/internship/geo-tech-admin.png'),title:"Geo Tech"},
+    {img:require('../img/internship/geo-tech-cse.png'),title:"Geo Tech"},
+    {img:require('../img/internship/geo-tech-manager.png'),title:"Geo Tech"},
+    {img:require('../img/internship/usa-rocks.png'),title:"USA Rocks"},
+    {img:require('../img/internship/usa-rocks-admin.png'),title:"USA Rocks Admin"},
+    {img:require('../img/internship/marvans.png'),title:"Marvans"},
+]
+
+const freelanceImgs = [
+    {img:require('../img/Upwork/upwork-profile.png'),title:"Upwork Profile"},
+    {img:require('../img/Upwork/compiler-img-1.png'),title:"Compiler Add"},
+    {img:require('../img/Upwork/compiler-img-2.png'),title:"Compiler output"},
+    {img:require('../img/Upwork/translation-site-img-2.png'),title:"translator's UI"},
+    {img:require('../img/Upwork/translation-site-img-1.png'),title:"client's UI"},
+    {img:require('../img/Upwork/vcard-img-1.png'),title:"vcard Demo"},
+    {img:require('../img/Upwork/vcard-img-2.png'),title:"vcard Demo"},
+    {img:require('../img/Upwork/electronics-site.png'),title:"electronics site"},
+    {img:require('../img/Upwork/toppers-pizza.png'),title:"pizza website"},
+]
+
 const makeRepeated = (arr, repeats) => {
     return [].concat.apply([], Array(repeats).fill(arr));
 }
@@ -18,8 +40,7 @@ export default [
             <li>Any many more small projects.</li>
         </ul>
         `,
-        proofs:makeRepeated([{proofImg,id:1},{proofImg,id:2},{proofImg,id:3},{proofImg,id:4},{proofImg,id:5}],6),
-        // proofs: [...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof]
+        proofs:makeRepeated(internshipImages,6)
     },
     {
         time:"July 2022 - FEB 2023",
@@ -33,7 +54,6 @@ export default [
             <li>Pizza page for - <a href="https://toppers-pizza.netlify.app/">Toppers pizza</a></li>
         </ul>
         `,
-        proofs:makeRepeated([{proofImg,id:1},{proofImg,id:2},{proofImg,id:3},{proofImg,id:4},{proofImg,id:5}],6),
-        // proofs: [...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof,...sample_proof]
+        proofs:makeRepeated(freelanceImgs,6)
     },
 ]

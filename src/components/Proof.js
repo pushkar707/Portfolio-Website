@@ -1,6 +1,6 @@
 import React,{useState,useRef} from 'react'
 
-const Proof = ({proofImg,setfullScreen,scrolly,setscrolly,proofsRef}) => {
+const Proof = ({img,title,setfullScreen,scrolly,setscrolly,proofsRef}) => {
     const [expandImage, setexpandImage] = useState(false)
     const [showProofTitle, setshowProofTitle] = useState(false)
     const [currTransform, setcurrTransform] = useState(0)
@@ -28,13 +28,13 @@ const Proof = ({proofImg,setfullScreen,scrolly,setscrolly,proofsRef}) => {
     if(!expandImage){
         return (
         <div className="proof" onMouseOver={() => {setshowProofTitle(true)}} onMouseLeave={() => setshowProofTitle(false)} onClick={showfullScreen} ref={currProof}>
-            <img src={proofImg} alt="" />
-            {showProofTitle && <div className="proof-title" >Geo Tech</div>}
+            <img src={img} alt="" />
+            {showProofTitle && <div className="proof-title" >{title}</div>}
         </div>)
     }else{
         return (
             <div className="proof-full" onClick={removeFullScreen}>
-                <img src={proofImg} alt="" />
+                <img src={img} alt="" />
                 {/* <div className={`proof-title ${!showProofTitle && 'd-none'}`}>Geo Tech</div> */}
             </div>
         )

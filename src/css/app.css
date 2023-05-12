@@ -91,7 +91,7 @@ section {
 }
 
 .theme-btn {
-  position: absolute;
+  position: fixed;
   top: 3rem;
   right: 3%;
   padding: 1rem;
@@ -387,6 +387,8 @@ section {
   align-items: center;
   padding: 1rem 0.6rem;
   background-color: var(--color-grey-5);
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .timeline-section .timelines .timeline .proof-container .previous, .timeline-section .timelines .timeline .proof-container .next {
   cursor: pointer;

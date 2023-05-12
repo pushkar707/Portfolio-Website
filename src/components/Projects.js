@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import SingleProject from './SingleProject'
-import data from '../data'
+import {projects} from '../data'
 
 const Projects = () => {
     const categories = ['full-stack','frontend', 'python']
@@ -11,14 +11,14 @@ const Projects = () => {
             <h2>My <span>Portfolio</span><span className="bg-text">my projects</span></h2>
         </div>
         <div className="project-nav">
-            {categories.map((category)=>{
-               return <div className={`project-cat ${category===currCategory && 'curr-cat'}`} onClick={()=>{setcurrCategory(category)}}>{category}</div>
+            {categories.map((category,index)=>{
+               return <div className={`project-cat ${category===currCategory && 'curr-cat'}`} key={index} onClick={()=>{setcurrCategory(category)}}>{category}</div>
             })}            
         </div>
         <div className="projects-grp">
-            {data.map((project)=>{
+            {projects.map((project,index)=>{
                 if (project.category===currCategory) {
-                    return <SingleProject {...project} key={project.id}/>
+                    return <SingleProject {...project} key={index}/>
                 }
             })}
         </div>

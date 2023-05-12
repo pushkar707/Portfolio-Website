@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload,faListCheck } from '@fortawesome/free-solid-svg-icons'
 import AboutChart from './AboutChart'
-import timeline from './data'
+import {proofs} from '../data'
 import Timeline from './Timeline'
 
 const About = ({setactiveSec,lightMode}) => {
@@ -93,8 +93,8 @@ const About = ({setactiveSec,lightMode}) => {
         <div className="timeline-section">
             <p className="timeline-section-heading">MY TIMELINE</p>
             <div className="timelines">
-                {timeline.map(timeline => {
-                    return <Timeline setfullScreen={setfullScreen} {...timeline}/>
+                {proofs.map((timeline,index) => {
+                    return <Timeline setfullScreen={setfullScreen} {...timeline} key={index}/>
                 })}
             </div>
         </div>

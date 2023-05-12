@@ -34,7 +34,7 @@ const Timeline = ({time,heading,description,proofs,setfullScreen}) => {
                     <div className="proof-overflow">
                         <div className="proofs" ref={proofsRef}>
                             {proofs.map((proof,index) => {
-                                    return <Proof {...proof} id={index} setfullScreen={setfullScreen} scrolly={scrolly} setscrolly={setscrolly} proofsRef={proofsRef}/>
+                                    return <Proof {...proof} key={index} setfullScreen={setfullScreen} scrolly={scrolly} setscrolly={setscrolly} proofsRef={proofsRef}/>
                             })}
                         </div>
                     </div>

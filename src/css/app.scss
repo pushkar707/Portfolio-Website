@@ -98,7 +98,7 @@ section{
 // CONTROLS
 
 .theme-btn{
-    position: absolute;
+    position: fixed;
     top:3rem;
     right:3%;
     padding: 1rem;
@@ -396,7 +396,8 @@ section{
                 display: flex;
                 align-items: center;
                 padding: 1rem 0.6rem;
-                background-color: var(--color-grey-5);   
+                background-color: var(--color-grey-5);
+                width: fit-content;
                 .previous,.next{
                     cursor: pointer;
                     transition: var(--primary-transition);

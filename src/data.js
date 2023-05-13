@@ -26,7 +26,7 @@ const makeRepeated = (arr, repeats) => {
 
 module.exports.proofs = [
     {
-        time:"January 2022 - July 2022",
+        time:"July 2022 - January 2023",
         heading:"<span className='position'>Full Stack web developer</span> - Stickman Technologies",
         description:`
         <ul>
@@ -41,7 +41,7 @@ module.exports.proofs = [
         proofs:makeRepeated(internshipImages,6)
     },
     {
-        time:"July 2022 - FEB 2023",
+        time:"January 2022 - Current",
         heading:"<span className='position'>Freelancer</span> - Upwork, linkedin",
         description:`
         <ul>

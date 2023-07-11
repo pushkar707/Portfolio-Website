@@ -72,19 +72,13 @@ module.exports.projects = [
     {
         name:"vCard",
         description:"webpage builder for businesses created using Django",
-        url:"http://vcard-env-last.eba-pbkqwgqd.ap-south-1.elasticbeanstalk.com/",
+        url:"https://github.com/pushkar707/vCard",
         category:"frontend"
     },
     {
         name: "Watch List",
         description: "A basic website to maintain a watch list of your favorite movies and shows made with react",
         url:"https://watch-list-by-pushkar.netlify.app/",
-        category:"frontend"
-    },
-    {
-        name:"Yelpcamp",
-        description:"A responsive website to explore camping grounds",
-        url:"https://yelpcamp-pushkar.cyclic.app",
         category:"frontend"
     },
     {
@@ -108,13 +102,25 @@ module.exports.projects = [
     {
         name:"vCard",
         description:"Webpage builder for businesses created using Django",
-        url:"http://vcard-env-last.eba-pbkqwgqd.ap-south-1.elasticbeanstalk.com/",
+        url:"https://github.com/pushkar707/vCard",
+        category:"full-stack"
+    },
+    {
+        name:"Upwork for translators",
+        description:"A project that implements SPA partially from backend(flask) without any JS in frontend",
+        url:"https://github.com/pushkar707/Upwork-for-translators",
         category:"full-stack"
     },
     {
         name:"vCard",
         description:"Webpage builder for businesses created using Django",
-        url:"http://vcard-env-last.eba-pbkqwgqd.ap-south-1.elasticbeanstalk.com/",
+        url:"https://github.com/pushkar707/vCard",
+        category:"python"
+    },
+    {
+        name:"Upwork for translators",
+        description:"A project that implements SPA partially from backend(flask) without any JS in frontend",
+        url:"https://github.com/pushkar707/Upwork-for-translators",
         category:"python"
     },
     {
@@ -125,9 +131,15 @@ module.exports.projects = [
     },
     {
         name:"Geo Group",
-        descriptiion:"Created an admin dashbaord to work over tests and reports of a testing company",
+        description:"Created an admin dashbaord to work over tests and reports of a testing company",
         url:"https://geogroup.in/",
         category:"full-stack"
+    },
+    {
+        name:"Basic compiler",
+        description:"Compiler that executes in project's environment. To be used locally",
+        url:"https://github.com/pushkar707/interpretor",
+        category:'python'
     },
     {
         name:"Yelpcamp",
@@ -136,10 +148,10 @@ module.exports.projects = [
         category:"full-stack"
     },
     {
-        name:"Billing App",
-        description:"A billing app for single user made with express, mongodb and more.",
-        url:"https://billing-app-pushkar.cyclic.app/",
-        category:'full-stack'
+        name:"Basic compiler",
+        description:"Compiler that executes in project's environment. To be used locally",
+        url:"https://github.com/pushkar707/interpretor",
+        category:'python'
     },
     {
         name:"Blog Website",
@@ -153,22 +165,4 @@ module.exports.projects = [
         url:"",
         category:"python"
     },
-    {
-        name:"BlackJack",
-        description:"A program to replicate blackJack game",
-        url:"https://github.com/pushkar707/Leetcode-Python/blob/master/blackJack.py",
-        category:"python"
-    },
-    {
-        name:"TicTacToe",
-        description:"A program to replicate tictactoe game",
-        url:"https://github.com/pushkar707/Leetcode-Python/blob/master/ticTacToe.py",
-        category:"python"
-    },
-    {
-        name:"Problem Solving",
-        description:"Some leetcode problems that I solved using python",
-        url:"https://github.com/pushkar707/Leetcode-Python",
-        category:"Python"
-    }
 ]

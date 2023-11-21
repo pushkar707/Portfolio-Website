@@ -7,7 +7,7 @@ const internshipImages = [
     {img:require('./img/internship/usa-rocks-admin.png'),title:"USA Rocks Admin"},
     {img:require('./img/internship/marvans.png'),title:"Marvans"},
 ]
-
+ 
 const freelanceImgs = [
     {img:require('./img/Upwork/upwork-profile.png'),title:"Upwork Profile"},
     {img:require('./img/Upwork/compiler-img-1.png'),title:"Compiler Add"},
@@ -23,7 +23,7 @@ const freelanceImgs = [
 const makeRepeated = (arr, repeats) => {
     return [].concat.apply([], Array(repeats).fill(arr));
 }
-
+ 
 module.exports.proofs = [
     {
         time:"July 2022 - January 2023",
@@ -55,18 +55,18 @@ module.exports.proofs = [
         proofs:makeRepeated(freelanceImgs,6)
     },
 ]
-
+ 
 module.exports.projects = [
     {
-        name:"Personal portfolio",
-        description: "My portfolio website to represent my skills, projects, experiences and more",
-        url:"https://portfolio-website-pushkar.netlify.app/",
-        category:"frontend"
+        name: "Distractions Checker",
+        description: "Restrict usage on websites that distract you",
+        url: "https://github.com/pushkar707/productive-browser",
+        category: "frontend"
     },
     {
-        name:"i-Dragon",
-        description: "A game made using html,css,js",
-        url:"https://i-dragon.netlify.app/",
+        name: "Price Comparer",
+        description: "Compares price of an amazon product from multiple places",
+        url:"https://github.com/pushkar707/Price-comparer",
         category:"frontend"
     },
     {
@@ -76,93 +76,27 @@ module.exports.projects = [
         category:"frontend"
     },
     {
-        name: "Watch List",
-        description: "A basic website to maintain a watch list of your favorite movies and shows made with react",
-        url:"https://watch-list-by-pushkar.netlify.app/",
+        name: "Entry Authentication System",
+        description: "Used in college to authenticate entry of people without ID card",
+        url:"https://github.com/pushkar707/vipsStudents",
         category:"frontend"
     },
     {
-        name:"Gym Webiste",
-        description:"A static single page website for a gym",
-        url:"https://gym-website-pushkar.netlify.app/",
+        name:"Playlist Downloader",
+        description:"Allow you to download spotify playlists of",
+        url:"https://github.com/pushkar707/Spotify-downloader",
         category:"frontend"
     },
     {
-        name:"Toppers Pizza",
-        description:"SPA made with react and Tailwind CSS for demo purposes",
-        url:"https://toppers-pizza.netlify.app/",
+        name:"Chat Application",
+        description:"Real-time chat application with nextJs, MERN and more",
+        url:"https://chat-app-express-frontend.vercel.app/chat/all",
         category:"frontend"
-    },
-    {
-        name:"Electronics Site",
-        description:"Simple HTML,CSS website to create online presence for electronics shop",
-        url:"https://newaggarwalelectricals.netlify.app/",
-        category:"frontend"
-    },
-    {
-        name:"vCard",
-        description:"Webpage builder for businesses created using Django",
-        url:"https://github.com/pushkar707/vCard",
-        category:"full-stack"
     },
     {
         name:"Upwork for translators",
         description:"A project that implements SPA partially from backend(flask) without any JS in frontend",
         url:"https://github.com/pushkar707/Upwork-for-translators",
-        category:"full-stack"
-    },
-    {
-        name:"vCard",
-        description:"Webpage builder for businesses created using Django",
-        url:"https://github.com/pushkar707/vCard",
-        category:"python"
-    },
-    {
-        name:"Upwork for translators",
-        description:"A project that implements SPA partially from backend(flask) without any JS in frontend",
-        url:"https://github.com/pushkar707/Upwork-for-translators",
-        category:"python"
-    },
-    {
-        name:"Marvans Mobile Ecommerce",
-        description: "Worked over website  and inventory management system",
-        url:"https://online.marvansmobile.com/",
-        category:"full-stack"
-    },
-    {
-        name:"Geo Group",
-        description:"Created an admin dashbaord to work over tests and reports of a testing company",
-        url:"https://geogroup.in/",
-        category:"full-stack"
-    },
-    {
-        name:"Basic compiler",
-        description:"Compiler that executes in project's environment. To be used locally",
-        url:"https://github.com/pushkar707/interpretor",
-        category:'python'
-    },
-    {
-        name:"Yelpcamp",
-        description:"A website to explore camping grounds made using express, mongoDb and many more.",
-        url:"https://yelpcamp-pushkar.cyclic.app",
-        category:"full-stack"
-    },
-    {
-        name:"Basic compiler",
-        description:"Compiler that executes in project's environment. To be used locally",
-        url:"https://github.com/pushkar707/interpretor",
-        category:'python'
-    },
-    {
-        name:"Blog Website",
-        description:"A blog website made for multiple users using flask and many more",
-        url:"https://multi-user-flask-blog-pushkar.onrender.com/",
-        category:'python'
-    },
-    {
-        name:"Decision Review System",
-        description:"A app that replicated functionality of DRS system of cricket, made with tkinter",
-        url:"",
-        category:"python"
-    },
+        category:"frontend"
+    }
 ]

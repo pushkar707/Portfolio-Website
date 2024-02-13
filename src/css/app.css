@@ -219,7 +219,8 @@ section {
   padding-right: 12rem;
 }
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
@@ -227,6 +228,8 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
+  font-size: 1.25rem;
+  opacity: 80%;
 }
 
 .about-stats {
@@ -306,6 +309,29 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .flask {
   width: 87%;
+}
+
+table {
+  display: block;
+  margin: 3rem auto auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+table, th, tr, td {
+  border: 1px solid var(--color-grey-3);
+  border-collapse: collapse;
+  color: var(--color-white);
+  font-size: 1.1rem;
+}
+table th, table td, th th, th td, tr th, tr td, td th, td td {
+  padding: 1rem 1.25rem;
+}
+table th, th th, tr th, td th {
+  font-weight: 600;
+}
+table td, th td, tr td, td td {
+  opacity: 75%;
 }
 
 @keyframes stats-start {

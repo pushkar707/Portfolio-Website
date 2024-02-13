@@ -78,7 +78,7 @@ section {
 
 .sec2 {
   transform: translateY(0) scale(1);
-  padding: 3vh 12vw 3vh 9vw;
+  padding: 3vh 12vw 8vh 9vw;
 }
 
 .sec3 {
@@ -324,6 +324,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  gap: 4rem 3rem;
 }
 .timeline-section .timelines .timeline {
   display: flex;
@@ -357,7 +358,7 @@ section {
 .timeline-section .timelines .timeline .timeline-heading {
   margin-bottom: 1.2rem;
   text-transform: uppercase;
-  color: var(--color-grey-2);
+  color: var(--color-white);
 }
 .timeline-section .timelines .timeline .timeline-heading .position {
   font-weight: bold;

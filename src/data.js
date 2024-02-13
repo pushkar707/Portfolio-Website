@@ -20,6 +20,13 @@ const freelanceImgs = [
     {img:require('./img/Upwork/toppers-pizza.png'),title:"pizza website"},
 ]
 
+const heydawImgs = [
+    {img:require('./img/heydaw/certificate.png'), title:"Internship Cert."},
+    {img:require('./img/heydaw/desktop-application.png'), title:"Desktop App"},
+    {img:require('./img/heydaw/home-page.png'), title:"Heydaw Home"},
+    {img:require('./img/heydaw/pricing.png'), title:"Heydaw Pricing Page"},
+]
+
 const makeRepeated = (arr, repeats) => {
     return [].concat.apply([], Array(repeats).fill(arr));
 }
@@ -53,6 +60,22 @@ module.exports.proofs = [
         </ul>
         `,
         proofs:makeRepeated(freelanceImgs,6)
+    },
+
+    {
+        time:"September 2023 - January 2024",
+        heading:"<span className='position'>Software Developer</span> - Heydaw Technologies",
+        description:`
+        <ul>
+            <li>Developing entire heydaw's website (MERN) - <a href="https://heydaw.ai/">Heydaw</a></li>
+            <li>Integrating stripe payments to website</li>
+            <li>Making contributions to AI python backend of Heydaw</li>
+            <li>Creating various functionality for their desktop application</li>
+            <li>Managing website hosting thorugh AWS</li>
+            
+        </ul>
+        `,
+        proofs:makeRepeated(heydawImgs,6)
     },
 ]
  

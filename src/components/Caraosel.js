@@ -22,6 +22,16 @@ const images = {
     'https://placekitten.com/800/401',
     'https://placekitten.com/800/402',
   ],
+  4:[
+    'https://placekitten.com/800/400',
+    'https://placekitten.com/800/401',
+    'https://placekitten.com/800/402',
+  ],
+  5:[
+    'https://placekitten.com/800/400',
+    'https://placekitten.com/800/401',
+    'https://placekitten.com/800/402',
+  ],
 };
 
 const Carousel = ({projectSelected, setprojectSelected, currentIndex, setCurrentIndex}) => {

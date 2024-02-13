@@ -520,11 +520,19 @@ section{
 
 .projects-grp{
     width: 100%;
-    overflow: hidden;
+    overflow-x: scroll;
     display: flex;
     gap: 2.5rem;
     transition: var(--primary-transition);
     margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    &::-webkit-scrollbar {
+        height: 0.5rem;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--color-grey-4);
+    
+    }
     .project-selected{
         border: solid 6px white !important;
     }

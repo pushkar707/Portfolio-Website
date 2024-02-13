@@ -116,10 +116,10 @@ module.exports.projects = [
         url:"https://chat-app-express-frontend.vercel.app/chat/all",
         category:"frontend"
     },
-    {
-        name:"Upwork for translators",
-        description:"A project that implements SPA partially from backend(flask) without any JS in frontend",
-        url:"https://github.com/pushkar707/Upwork-for-translators",
-        category:"frontend"
-    }
+    // {
+    //     name:"Upwork for translators",
+    //     description:"A project that implements SPA partially from backend(flask) without any JS in frontend",
+    //     url:"https://github.com/pushkar707/Upwork-for-translators",
+    //     category:"frontend"
+    // }
 ]

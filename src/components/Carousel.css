@@ -16,6 +16,7 @@
   width: 100%;
   height: auto;
   transition: 1s all ease-in-out;
+  cursor: pointer;
 }
 
 .arrow {

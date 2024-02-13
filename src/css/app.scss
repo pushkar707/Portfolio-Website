@@ -86,8 +86,15 @@ section{
 }
 
 .sec3{
+    padding-top: 2rem;
     // display: none;
     transform: translateY(0) scale(1);
+    padding-right: 5rem;
+    padding-left: 5rem;
+    .bg-text{
+        display: none;
+        // font-size: 4.5rem !important;
+    }
 }
 
 .sec4{
@@ -512,19 +519,26 @@ section{
 }
 
 .projects-grp{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 2.5rem;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    gap: 2.5rem;
     transition: var(--primary-transition);
+    margin-top: 2rem;
+    .project-selected{
+        border: solid 6px white !important;
+    }
     .project{
         width: 100%;
-        height: 200px;
+        height: 150px;
+        width: 300px;
         background-color: var(--color-grey-5);
         display: flex;
         justify-content: center;
         align-items: center;
         transition: var(--primary-transition);
         border: 2px solid var(--color-grey-3);
+        
         &:hover{
             transform: translateY(-0.4rem);
             background-color: var(--color-black);

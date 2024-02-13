@@ -1,0 +1,51 @@
+/* Carousel.css */
+
+.custom-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Set your desired max width */
+  margin: 1rem auto 2rem;
+  transition: 0.4s all ease-in-out;
+}
+
+.carousel-slide {
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  transition: 1s all ease-in-out;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--color-grey-6);
+  background-color: var(--color-grey-2);
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-weight: bold;
+}
+
+.arrow.prev {
+  left: -50px;
+}
+
+.arrow.next {
+  right: -50px;
+}
+
+@media (max-width: 600px) {
+    .arrow.prev{
+        left: 7px;
+    }
+
+    .arrow.next {
+        right: 7px;
+    }
+}

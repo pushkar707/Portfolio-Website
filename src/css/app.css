@@ -82,7 +82,13 @@ section {
 }
 
 .sec3 {
+  padding-top: 2rem;
   transform: translateY(0) scale(1);
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+.sec3 .bg-text {
+  display: none;
 }
 
 .sec4 {
@@ -498,14 +504,20 @@ section {
 }
 
 .projects-grp {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2.5rem;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  gap: 2.5rem;
   transition: var(--primary-transition);
+  margin-top: 2rem;
+}
+.projects-grp .project-selected {
+  border: solid 6px white !important;
 }
 .projects-grp .project {
   width: 100%;
-  height: 200px;
+  height: 150px;
+  width: 300px;
   background-color: var(--color-grey-5);
   display: flex;
   justify-content: center;

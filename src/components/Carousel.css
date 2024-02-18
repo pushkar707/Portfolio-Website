@@ -34,6 +34,7 @@
   padding: 10px;
   outline: none;
   font-weight: bold;
+  z-index: 1000;
 }
 
 .arrow.prev {
@@ -44,12 +45,29 @@
   right: -50px;
 }
 
+@media (max-width: 1000px) {
+  .arrow.prev{
+      left: 7px;
+  }
+
+  .arrow.next {
+      right: 7px;
+  }
+}
+
+@media (max-width: 700px) {
+  .carousel-slide img{
+    max-width: 500px;
+  }
+}
+
 @media (max-width: 600px) {
-    .arrow.prev{
-        left: 7px;
+    .caraosel-container{
+      display: none;
     }
 
-    .arrow.next {
-        right: 7px;
+    .projects-grp{
+      overflow: unset;
+      flex-wrap: wrap;
     }
 }

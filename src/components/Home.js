@@ -21,7 +21,7 @@ const Home = () => {
                 <p>Love to see code turning to powerful softwares</p>
 
                 <p>Passionate MERN Stack developer with a knack for crafting robust and scalable web applications. Proficient in Python (Django and Flask) as well. Committed to adhering to best coding practices, ensuring excellence in error handling, security, performance, hosting, testing, and monitoring.</p>
-                <div style={{display: "flex", columnGap: "2rem", marginTop:"1rem"}} >
+                <div className='home-btns' style={{display: "flex", columnGap: "2rem", marginTop:"1rem", flexWrap:"wrap", gap: "16px"}} >
                     <div className="btn-con">
                         <a href="/about" className="main-btn">
                             <span className="btn-text">View Skills</span>

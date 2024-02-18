@@ -144,4 +144,19 @@
   .main-title h2 .bg-text {
     display: none;
   }
+}
+@media (max-width: 500px) {
+  .sec1 .left-header {
+    overflow: hidden;
+  }
+  .name {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+  .header-content .right-header p {
+    margin-block-start: 0.7rem;
+    margin-block-end: 0.7rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }/*# sourceMappingURL=responsive.css.map */

@@ -69,5 +69,6 @@
     .projects-grp{
       overflow: unset;
       flex-wrap: wrap;
+      margin-left: -3rem;
     }
 }

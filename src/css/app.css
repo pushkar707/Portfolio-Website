@@ -216,7 +216,8 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 12rem;
+  padding-right: 8rem;
+  margin-left: -5rem;
 }
 .header-content .right-header .name {
   font-size: 2rem;

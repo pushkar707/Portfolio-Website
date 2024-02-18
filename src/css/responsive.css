@@ -7,6 +7,7 @@
   }
   .header-content .right-header {
     padding-right: 8rem;
+    margin-left: unset;
   }
   .header-content .left-header .image {
     width: 80%;

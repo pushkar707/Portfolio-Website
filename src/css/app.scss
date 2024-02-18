@@ -187,6 +187,7 @@ section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 100%;
+    
     .left-header{
         display: flex;
         align-items: center;
@@ -229,7 +230,9 @@ section{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-right: 12rem;
+        padding-right: 8rem;
+        margin-left: -5rem;
+
         .name{
             font-size: 2rem;
             line-height: 2.5rem;

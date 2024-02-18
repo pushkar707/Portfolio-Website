@@ -15,7 +15,7 @@ const SkillsTable = () => {
 
         <tr>
             <th>Advanced</th>
-            <td>Docker, Redis, Sockets, zod, pub-sub, Queues, Celery</td>
+            <td>Zod, Firebase, Docker, Redis, Sockets, pub-sub, Queues, Celery</td>
         </tr>
 
         <tr>

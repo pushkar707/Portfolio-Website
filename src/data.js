@@ -78,48 +78,128 @@ module.exports.proofs = [
         proofs:makeRepeated(heydawImgs,6)
     },
 ]
- 
+
+/*
+
+Project 19/FEB/24
+1) License generation system
+2) Vercel clone
+3) Price comparision Browser extension
+4) Chat application
+5) Vcard
+
+
+INFO TO ADD FOR EACH PROJECT:-
+
+Description
+Working
+Tech Used
+Good points
+*/
+
 module.exports.projects = [
     {
-        name: "Distractions Checker",
-        description: "Restrict usage on websites that distract you",
-        url: "https://github.com/pushkar707/productive-browser",
-        category: "frontend"
+        name:"Learner's License System",
+        description: "Stripe, AWS, Firebase, socket.io, NextTs, ExpressTs, Quiz",
+        url:"https://github.com/pushkar707/license-creation-system",
+        category:"frontend",
+        images:[
+            require("./img/projects/License-system/login page.png"),
+            require("./img/projects/License-system/dashboard.png"),
+            require("./img/projects/License-system/Test page.png"),
+            require("./img/projects/License-system/payments.png"),
+        ]
     },
+
     {
-        name: "Price Comparer",
-        description: "Compares price of an amazon product from multiple places",
+        name:"Vercel Clone",
+        description: "System Design, Docker, Redis, BullMq, AWS",
+        url:"https://github.com/pushkar707/vercel-clone-pushkar",
+        category:"frontend",
+        images:[
+            require("./img/projects/vercel-clone/current-design.jpeg"),
+            require("./img/projects/vercel-clone/home.png"),
+            require("./img/projects/vercel-clone/build-page.png"),
+            require("./img/projects/vercel-clone/proxy-server.png"),
+            require("./img/projects/vercel-clone/alternate-design.jpeg"),
+        ]
+    },
+
+    {
+        name:"Price Comparision Extension",
+        description: "Web Scrapping, Problem Solving, Chrome extensions, Nodejs",
         url:"https://github.com/pushkar707/Price-comparer",
-        category:"frontend"
+        category:"frontend",
+        images:[
+            require("./img/projects/price-comparision-ext/example-1.png"),
+            require("./img/projects/price-comparision-ext/example-2.png"),
+        ]
     },
+
     {
-        name:"vCard",
-        description:"webpage builder for businesses created using Django",
+        name:"vCard webpage Builder",
+        description: "Django, Sql, AWS, Highly interactive UI",
         url:"https://github.com/pushkar707/vCard",
-        category:"frontend"
+        category:"frontend",
+        images:[
+            require("./img/projects/vcard/vcard-img-1.png"),
+            require("./img/projects/vcard/vcard-img-2.png"),
+        ]
     },
-    {
-        name: "Entry Authentication System",
-        description: "Used in college to authenticate entry of people without ID card",
-        url:"https://github.com/pushkar707/vipsStudents",
-        category:"frontend"
-    },
-    {
-        name:"Playlist Downloader",
-        description:"Allow you to download spotify playlists of",
-        url:"https://github.com/pushkar707/Spotify-downloader",
-        category:"frontend"
-    },
+
     {
         name:"Chat Application",
-        description:"Real-time chat application with nextJs, MERN and more",
-        url:"https://chat-app-express-frontend.vercel.app/chat/all",
-        category:"frontend"
-    },
-    // {
-    //     name:"Upwork for translators",
-    //     description:"A project that implements SPA partially from backend(flask) without any JS in frontend",
-    //     url:"https://github.com/pushkar707/Upwork-for-translators",
-    //     category:"frontend"
-    // }
+        description: "Socket.io, NextTs, AWS, Tailwind, ExpressTs,",
+        url:"https://github.com/pushkar707/chatAppBackend",
+        category:"frontend",
+        images:[
+            require("./img/projects/chat-app/chats-page.png"),
+            require("./img/projects/chat-app/chats-page-2.png"),
+        ]
+    }   
 ]
+ 
+// module.exports.projects = [
+//     {
+//         name: "Distractions Checker",
+//         description: "Restrict usage on websites that distract you",
+//         url: "https://github.com/pushkar707/productive-browser",
+//         category: "frontend"
+//     },
+//     {
+//         name: "Price Comparer",
+//         description: "Compares price of an amazon product from multiple places",
+//         url:"https://github.com/pushkar707/Price-comparer",
+//         category:"frontend"
+//     },
+//     {
+//         name:"vCard",
+//         description:"webpage builder for businesses created using Django",
+//         url:"https://github.com/pushkar707/vCard",
+//         category:"frontend"
+//     },
+//     {
+//         name: "Entry Authentication System",
+//         description: "Used in college to authenticate entry of people without ID card",
+//         url:"https://github.com/pushkar707/vipsStudents",
+//         category:"frontend"
+//     },
+//     {
+//         name:"Playlist Downloader",
+//         description:"Allow you to download spotify playlists of",
+//         url:"https://github.com/pushkar707/Spotify-downloader",
+//         category:"frontend"
+//     },
+//     {
+//         name:"Chat Application",
+//         description:"Real-time chat application with nextJs, MERN and more",
+//         url:"https://chat-app-express-frontend.vercel.app/chat/all",
+//         category:"frontend"
+//     },
+//     // {
+//     //     name:"Upwork for translators",
+//     //     description:"A project that implements SPA partially from backend(flask) without any JS in frontend",
+//     //     url:"https://github.com/pushkar707/Upwork-for-translators",
+//     //     category:"frontend"
+//     // }
+// ]

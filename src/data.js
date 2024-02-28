@@ -34,7 +34,7 @@ const makeRepeated = (arr, repeats) => {
 module.exports.proofs = [
     {
         time:"July 2022 - January 2023",
-        heading:"<span className='position'>Full Stack Developer</span> - Stickman Services",
+        heading:"<span className='position'>Full Stack Intern</span> - Stickman Services",
         description:`
         <ul>
             <li>Developed Geo Group's(50+ cr turnover) testing vertical admin dashboard, speeding up processes by 30% and overall testing by 10%.</li>
@@ -59,7 +59,7 @@ module.exports.proofs = [
 
     {
         time:"September 2023 - January 2024",
-        heading:"<span className='position'>Software Developer</span> - Heydaw Technologies",
+        heading:"<span className='position'>Software Developer Intern</span> - Heydaw Technologies",
         description:`
         <ul>
             <li>Heydaw is a startup in its initial stages, expecting a user base of over 100,000 users by the end of 2025.</li>
@@ -69,6 +69,19 @@ module.exports.proofs = [
         `,
         proofs:makeRepeated(heydawImgs,6)
     },
+    {
+        time:"February 2024 - Current",
+        heading:"<span className='position'>Software Developer Intern</span> - Rakshakcode",
+        description:`
+        <ul>
+            <li>Rakshakcode is a product aiming to reach most automobile owners in India and internationally by 2030.</li>
+            <li>Extending the existing product to open multiple B2C and B2B opportunities.</li>
+            <li>I am responsible for backend API and super-admin dashboard for Rakshak Code.</li>    
+            <br>        
+        </ul>
+        `,
+        proofs:[]
+    }
 ]
 
 /*

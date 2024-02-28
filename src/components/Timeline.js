@@ -28,18 +28,20 @@ const Timeline = ({time,heading,description,proofs,setfullScreen}) => {
             <p className="timeline-timing">{time}</p>
             <p className="timeline-heading" dangerouslySetInnerHTML={{__html:heading}}></p>
             <p className="timeline-description" dangerouslySetInnerHTML={{__html:description}} ></p>
-            <p className='proof-heading'>Proof of work</p>
-            <div className="proof-container">
-                <div className="previous" onClick={shiftLeft}><FontAwesomeIcon icon={faLessThan} /></div>
-                    <div className="proof-overflow">
-                        <div className="proofs" ref={proofsRef}>
-                            {proofs.map((proof,index) => {
-                                    return <Proof {...proof} key={index} setfullScreen={setfullScreen} scrolly={scrolly} setscrolly={setscrolly} proofsRef={proofsRef}/>
-                            })}
+            {proofs.length ? <>
+                <p className='proof-heading'>Proof of work</p>
+                <div className="proof-container">
+                    <div className="previous" onClick={shiftLeft}><FontAwesomeIcon icon={faLessThan} /></div>
+                        <div className="proof-overflow">
+                            <div className="proofs" ref={proofsRef}>
+                                {proofs.map((proof,index) => {
+                                        return <Proof {...proof} key={index} setfullScreen={setfullScreen} scrolly={scrolly} setscrolly={setscrolly} proofsRef={proofsRef}/>
+                                })}
+                            </div>
                         </div>
-                    </div>
-                <div className="next" onClick={shiftRight}><FontAwesomeIcon icon={faLessThan} /></div>
-            </div>
+                    <div className="next" onClick={shiftRight}><FontAwesomeIcon icon={faLessThan} /></div>
+                </div>
+            </> : ""}
         </div>
     </div>
   )

@@ -34,7 +34,7 @@ const makeRepeated = (arr, repeats) => {
 module.exports.proofs = [
     {
         time:"July 2022 - January 2023",
-        heading:"<span className='position'>Full Stack web developer</span> - Stickman Technologies",
+        heading:"<span className='position'>Full Stack Developer</span> - Stickman Services",
         description:`
         <ul>
             <li>Developed Geo Group's(50+ cr turnover) testing vertical admin dashboard, speeding up processes by 30% and overall testing by 10%.</li>
@@ -52,7 +52,6 @@ module.exports.proofs = [
             <li>Developed a mini-webpage builder, that enables professionals to generate digital business cards, containing their contact info, socials, products, and featured sections.</li>
             <li>Created a freelancing platform for professional translators, connecting clients and professionals, to be used on the Tor browser. </li>
             <li>Creating static designs and developing them for small businesses</li>
-            <br/>
         </ul>
         `,
         proofs:makeRepeated(freelanceImgs,6)

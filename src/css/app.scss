@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
 
 *{
     margin: 0;
@@ -408,13 +408,15 @@ table,th,tr,td {
                 margin-bottom: 1.2rem;
                 text-transform: uppercase;
                 color: var(--color-white);
+                // font-weight: 500;
                 .position{
-                    font-weight: bold;
+                    // font-weight: bold;
                     color: var(--color-white);
                 }
             }
             .timeline-description{
-                color: var(--color-grey-2);
+                color: var(--color-grey-1);
+                opacity: 0.85;
                 ul{
                     list-style-type: disc;
                     li{

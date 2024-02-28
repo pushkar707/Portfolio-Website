@@ -37,12 +37,9 @@ module.exports.proofs = [
         heading:"<span className='position'>Full Stack web developer</span> - Stickman Technologies",
         description:`
         <ul>
-            <li>Worked on existing websites, and created websites and web solution from complete scratch for various brands and companies.</li>
-            <li>Created <span className='fw-bold'>admin dashboard</span> for a testing products for <a href="https://geogroup.in/">geogroup</a></li>
-            <li>Made full stack changes to <span className="fw-bold">ecommerce</span> website  - <a href="https://online.marvansmobile.com/">Marvans Mobile</a></li>
-            <li>Wrote backend for <span className="fw-bold">inventory management</span> for marvans stock</li>
-            <li>Worked on ecommerce and admin dashboard for <a href="https://store.usarocks.biz/">USA Rocks</a></li>
-            <li>Any many more small projects.</li>
+            <li>Developed Geo Group's(50+ cr turnover) testing vertical admin dashboard, speeding up processes by 30% and overall testing by 10%.</li>
+            <li>Overhauled Marvan mobile order processing, fixing 10+ critical bugs, and achieved a 40% increase in checkout conversion within the first month.</li>
+            <li>Optimized Marvan's e-commerce admin dashboard, elevating sales by 20% through improved product, order, and customer management.</li>
         </ul>
         `,
         proofs:makeRepeated(internshipImages,6)
@@ -52,11 +49,10 @@ module.exports.proofs = [
         heading:"<span className='position'>Freelancer</span> - Upwork, linkedin",
         description:`
         <ul>
-            <li>Created a mini <span className="fw-bold">web-page builder</span>(django) - <a href="http://vcard-env-last.eba-pbkqwgqd.ap-south-1.elasticbeanstalk.com/">vCard</a></li>
-            <li>Created a website for people to get their texts translated by professionals - SPA through backend (flask), no JS because used in TOR browser <a href="http://pushkar707.pythonanywhere.com/">View (not completed)</a></li>
-            <li>A python compiler project in django - <a href="#">View</a></li>
-            <li>Electronics Site for <a href="https://newaggarwalelectricals.netlify.app/">New Aggarwal Electricals</a></li>
-            <li>Pizza page for - <a href="https://toppers-pizza.netlify.app/">Toppers pizza</a></li>
+            <li>Developed a mini-webpage builder, that enables professionals to generate digital business cards, containing their contact info, socials, products, and featured sections.</li>
+            <li>Created a freelancing platform for professional translators, connecting clients and professionals, to be used on the Tor browser. </li>
+            <li>Creating static designs and developing them for small businesses</li>
+            <br/>
         </ul>
         `,
         proofs:makeRepeated(freelanceImgs,6)
@@ -67,12 +63,9 @@ module.exports.proofs = [
         heading:"<span className='position'>Software Developer</span> - Heydaw Technologies",
         description:`
         <ul>
-            <li>Developing entire heydaw's website (MERN) - <a href="https://heydaw.ai/">Heydaw</a></li>
-            <li>Integrating stripe payments to website</li>
-            <li>Making contributions to AI python backend of Heydaw</li>
-            <li>Creating various functionality for their desktop application</li>
-            <li>Managing website hosting thorugh AWS</li>
-            
+            <li>Heydaw is a startup in its initial stages, expecting a user base of over 100,000 users by the end of 2025.</li>
+            <li>Implemented safe and secure payments using Stripe that meet the complex requirements of Heydaw’s subscriptions. </li>
+            <li> Integrated Heydaw’s desktop application within the website, which reduced users’ initial time to start using the product by 50%.</li>            
         </ul>
         `,
         proofs:makeRepeated(heydawImgs,6)
